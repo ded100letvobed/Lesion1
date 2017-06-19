@@ -31,5 +31,15 @@ namespace вывод_через_окно
         {
             MessageBox.Show(textBox1.Text,"окно");
         }
+
+        private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("урок 1", "окно");
+        }
+
+        private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
