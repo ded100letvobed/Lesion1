@@ -16,6 +16,7 @@ namespace вывод_через_окно
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Запуск окна
             Application.Run(new Form1());
         }
     }
